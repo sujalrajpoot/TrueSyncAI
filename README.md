@@ -1,1 +1,3 @@
-# TrueSyncAI-ChatAPI-
+# TrueSyncAI-ChatAPI
+---
+![Thumbnail](TrueSyncAI.jpg)
