@@ -2,6 +2,8 @@
 
 ![Thumbnail](TrueSyncAI.jpg)
 
+---
+
 # Documentation
 
 TrueSyncAI is a pioneering artificial intelligence startup focused on bringing virtual versions of individuals into the real world, redefining human-AI interaction. Our API provides seamless access to our state-of-the-art language model powered by Llama 3.3 70B.
