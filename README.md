@@ -1,6 +1,6 @@
 # TrueSyncAI-ChatAPI
 
-![Thumbnail](TrueSyncAI.jpg)
+![Thumbnail](app/static/TrueSyncAI.jpg)
 
 ---
 
