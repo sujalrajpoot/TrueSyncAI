@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrueSyncAI | Intelligent Synchronization</title>
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="loading-screen">
+        <div class="loader">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+        <div class="loading-text">TrueSyncAI</div>
+    </div>
+    
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="{{ url_for('static', filename='TrueSyncAI.jpg') }}" alt="TrueSyncAI Logo">
+                <span>TrueSyncAI</span>
+            </div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="" class="active">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Solutions</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="./documentation.html" class="btn-primary">Get Started</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Synchronize Your World With <span class="gradient-text">TrueSyncAI</span></h1>
+            <p>Revolutionizing connections with intelligent AI synchronization technology</p>
+            <div class="hero-buttons">
+                <button class="btn-primary">Try It Now</button>
+                <button class="btn-secondary"><i class="fas fa-play-circle"></i> Watch Demo</button>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number" data-target="98">0</span>%
+                    <span class="stat-label">Accuracy</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-target="5000">0</span>+
+                    <span class="stat-label">Users</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-target="24">0</span>/7
+                    <span class="stat-label">Support</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="shape"></div>
+            <img src="{{ url_for('static', filename='TrueSyncAI.jpg') }}" alt="TrueSyncAI Logo">
+            <div class="floating-elements">
+                <div class="floating-element"><i class="fas fa-brain"></i></div>
+                <div class="floating-element"><i class="fas fa-sync"></i></div>
+                <div class="floating-element"><i class="fas fa-robot"></i></div>
+                <div class="floating-element"><i class="fas fa-cog"></i></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <h2>Key <span class="gradient-text">Features</span></h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <h3>Advanced AI</h3>
+                <p>State-of-the-art artificial intelligence that adapts to your needs</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-sync"></i>
+                </div>
+                <h3>Real-time Sync</h3>
+                <p>Seamless synchronization across all your devices in real-time</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3>Secure</h3>
+                <p>Enterprise-grade security for your sensitive data</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-tachometer-alt"></i>
+                </div>
+                <h3>Fast</h3>
+                <p>Lightning-fast performance to keep up with your demands</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="cta-content">
+            <h2>Ready to <span class="gradient-text">Transform</span> Your Experience?</h2>
+            <p>Join thousands of satisfied users who have already made the switch to TrueSyncAI</p>
+            <button class="btn-primary">Get Started Now</button>
+        </div>
+        <div class="cta-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="{{ url_for('static', filename='TrueSyncAI.jpg') }}" alt="TrueSyncAI Logo">
+                <span>TrueSyncAI</span>
+            </div>
+            <div class="footer-links">
+                <div class="footer-links-column">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Integrations</a></li>
+                        <li><a href="./documentation.html">Documentation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-column">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-column">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Community</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Partners</a></li>
+                        <li><a href="#">Events</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-social">
+                <h4>Connect With Us</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="newsletter">
+                    <input type="email" placeholder="Enter your email">
+                    <button class="btn-primary">Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 TrueSyncAI. All rights reserved.</p>
+            <div class="footer-bottom-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Cookies Policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
