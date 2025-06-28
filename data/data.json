@@ -2,7 +2,43 @@
   "models": [
     {
       "name": "TrueSyncAI-3B",
-      "description": "TrueSyncAI-3B is a revolutionary model which has emotional intelligence at its core. It analyzes not just what you say, but also the intricate structure and underlying context of your emotions. This deep understanding leads to truly meaningful, nuanced, and empathetic responses."
-    }
+      "description": "TrueSyncAI-3B is a revolutionary model which has emotional intelligence at its core. It analyzes not just what you say, but also the intricate structure and underlying context of your emotions. This deep understanding leads to truly meaningful, nuanced, and empathetic responses.",
+      "link": "https://huggingface.co/sujalrajpoot/TrueSyncAI-3B",
+      "capabilities": [
+        "Emotionally aware conversational AI",
+        "Multi-stage reasoning pipeline",
+        "Context-aware memory and response formulation",
+        "Highly personalized interactions",
+        "Deep empathy recognition across varied communication styles"
+      ],
+      "technology": "Built on a custom fine-tuned transformer architecture designed by TrueSyncAI Labs",
+      "applications": [
+        "AI companions",
+        "Therapeutic bots",
+        "Emotionally-aware customer support",
+        "Personal life coaches",
+        "Thinks before it speaks, just like you do"
+      ],
+    },
+    {
+      "name": "Jarvis-3B",
+      "description": "Jarvis-3B is a text generation model developed by Sujal Rajpoot. Inspired by the fictional AI assistant Jarvis from the Iron Man series, this model aims to emulate Jarvis's conversational abilities. With a total of 3 billion parameters, Jarvis-3B is designed to handle various natural language understanding and generation tasks.",
+      "link": "https://huggingface.co/sujalrajpoot/Jarvis-3B",
+      "capabilities": [
+        "Emotionally aware conversational AI",
+        "Multi-stage reasoning pipeline",
+        "Context-aware memory and response formulation",
+        "Highly personalized interactions",
+        "Deep empathy recognition across varied communication styles"
+      ],
+      "technology": "Built on a custom fine-tuned transformer architecture designed by TrueSyncAI Labs",
+      "applications": [
+        "AI companions",
+        "Therapeutic bots",
+        "Emotionally-aware customer support",
+        "Personal life coaches",
+        "Thinks before it speaks, just like you do"
+      ],
+    },
   ]
 }
