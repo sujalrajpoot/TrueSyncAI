@@ -1,45 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Dynamic Projects</title>
-  <style>
-    body { font-family: Arial; padding: 2rem; }
-    .project { border: 1px solid #ccc; padding: 1rem; margin-bottom: 1rem; border-radius: 8px; }
-    .project h2 { margin: 0 0 0.5rem; }
-  </style>
-</head>
-<body>
-
-  <h1>Projects</h1>
-  <div id="project-list">Loading...</div>
-
-  <script>
-    const jsonURL = "https://<your-username>.github.io/<repo-name>/data.json"; // Replace with your actual link
-
-    fetch(jsonURL)
-      .then(response => response.json())
-      .then(data => {
-        const container = document.getElementById('project-list');
-        container.innerHTML = '';
-
-        data.projects.forEach(project => {
-          const div = document.createElement('div');
-          div.className = 'project';
-          div.innerHTML = `
-            <h2>${project.title}</h2>
-            <p>${project.description}</p>
-            <a href="${project.link}" target="_blank">Visit Project</a>
-          `;
-          container.appendChild(div);
-        });
-      })
-      .catch(err => {
-        document.getElementById('project-list').innerHTML = 'Failed to load projects.';
-        console.error(err);
-      });
-  </script>
-
-</body>
-</html>
+{
+  "projects": [
+    {
+      "title": "TrueSyncAI",
+      "description": "Custom AI solutions tailored for specific needs.",
+      "link": "https://truesyncai.com"
+    },
+    {
+      "title": "Fine-Tune Portal",
+      "description": "A dashboard for model fine-tuning with OpenAI APIs.",
+      "link": "https://yourdomain.com/portal"
+    }
+  ]
+}
