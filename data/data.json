@@ -1,24 +1,45 @@
-{
-  "models": [
-    {
-      "name": "TrueSyncAI-3B",
-      "tagline": "A revolutionary emotionally intelligent AI model",
-      "description": "TrueSyncAI-3B is a revolutionary model which has emotional intelligence at its core. It analyzes not just what you say, but also the intricate structure and underlying context of your emotions. This deep understanding leads to truly meaningful, nuanced, and empathetic responses.",
-      "capabilities": [
-        "Emotionally aware conversational AI",
-        "Multi-stage reasoning pipeline",
-        "Context-aware memory and response formulation",
-        "Highly personalized interactions",
-        "Deep empathy recognition across varied communication styles"
-      ],
-      "technology": "Built on a custom fine-tuned transformer architecture designed by TrueSyncAI Labs",
-      "applications": [
-        "AI companions",
-        "Therapeutic bots",
-        "Emotionally-aware customer support",
-        "Personal life coaches",
-        "Thinks before it speaks, just like you do"
-      ],
-    }
-  ]
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dynamic Projects</title>
+  <style>
+    body { font-family: Arial; padding: 2rem; }
+    .project { border: 1px solid #ccc; padding: 1rem; margin-bottom: 1rem; border-radius: 8px; }
+    .project h2 { margin: 0 0 0.5rem; }
+  </style>
+</head>
+<body>
+
+  <h1>Projects</h1>
+  <div id="project-list">Loading...</div>
+
+  <script>
+    const jsonURL = "https://<your-username>.github.io/<repo-name>/data.json"; // Replace with your actual link
+
+    fetch(jsonURL)
+      .then(response => response.json())
+      .then(data => {
+        const container = document.getElementById('project-list');
+        container.innerHTML = '';
+
+        data.projects.forEach(project => {
+          const div = document.createElement('div');
+          div.className = 'project';
+          div.innerHTML = `
+            <h2>${project.title}</h2>
+            <p>${project.description}</p>
+            <a href="${project.link}" target="_blank">Visit Project</a>
+          `;
+          container.appendChild(div);
+        });
+      })
+      .catch(err => {
+        document.getElementById('project-list').innerHTML = 'Failed to load projects.';
+        console.error(err);
+      });
+  </script>
+
+</body>
+</html>
