@@ -1,0 +1,14 @@
+{
+  "projects": [
+    {
+      "title": "TrueSyncAI",
+      "description": "Custom AI solutions tailored for specific needs.",
+      "link": "https://truesyncai.com"
+    },
+    {
+      "title": "Fine-Tune Portal",
+      "description": "A dashboard for model fine-tuning with OpenAI APIs.",
+      "link": "https://yourdomain.com/portal"
+    }
+  ]
+}
