@@ -1,14 +1,8 @@
 {
-  "projects": [
+  "models": [
     {
-      "title": "TrueSyncAI",
-      "description": "Custom AI solutions tailored for specific needs.",
-      "link": "https://truesyncai.com"
-    },
-    {
-      "title": "Fine-Tune Portal",
-      "description": "A dashboard for model fine-tuning with OpenAI APIs.",
-      "link": "https://yourdomain.com/portal"
+      "name": "TrueSyncAI-3B",
+      "description": "TrueSyncAI-3B is a revolutionary model which has emotional intelligence at its core. It analyzes not just what you say, but also the intricate structure and underlying context of your emotions. This deep understanding leads to truly meaningful, nuanced, and empathetic responses."
     }
   ]
 }
